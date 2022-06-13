@@ -1,0 +1,39 @@
+Project Requirments: 
+
+	1) creating class
+
+	2) function gaussianMask( Size of the mask, Sigma=1 ):
+		
+		* return the mask
+	
+	3) function convolute( image, filter ):
+		
+		* return result of convoluting the filter
+
+	4) function sobil( image ):
+
+		* return the image containing the edge
+
+	5) function Prewitt( image ):
+
+		* return the image edge
+
+	6) function non-maxima supperession( image, angels ):
+
+		* return the resulting image
+
+	7) function double threshold( image ):
+		
+		* return result image
+
+	8) function Edge Linking( image ):
+
+		* return result image contain the edge
+
+	9) function Canny( image ):
+
+		* return the edge
+
+	10) Filter Size for all Edge Detectors = 3*3
+
+	11) write functions from scratch

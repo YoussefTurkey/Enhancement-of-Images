@@ -1,0 +1,31 @@
+impelement -> Gaussian Noise.
+	- (Guassian Filter)
+	- Filter 'Mask'
+	- Convolution Filter
+	- Find Guassian Coefficient at point
+	- Edge Detection ( Prewitt - Sobel - Canny )
+
+Steps:
+	*inputs:
+		1) more than one img 'hand sign'
+		2) test hand 
+
+	*pre-processing:
+		1) convert img to grayscale
+		2) enhance img using filters technique
+		   (Smoothing, Sharping, smooth the sharp, sharp then smooth, other..)
+		3) convert grayscale img to binary img
+	
+	*segment img from bg
+	
+	*detect border of hand:
+		1) apply filter (Soble, Prewitt, Canny)
+		2) select which filter is better
+		3) how canny thin edges
+		4) how canny remove unimportant or weak edges
+
+	*display three cases (original - gray - edge) of img
+
+Resource Link:
+	https://coderzcolumn.com/tutorials/python/image-filtering-in-python-using-pillow
+	https://clay-atlas.com/us/blog/2020/11/28/python-en-package-pillow-convert-background-transparent/
